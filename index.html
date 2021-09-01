@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>pricelist</title>
+        <style>
+            .pl{
+                width: 959px;
+                height: 662px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .pl thead{
+                display: block;
+            }
+            .pl tbody{
+                display: block;
+            }
+            .pl tfoot{
+                display: block;
+            }
+            .common{
+                width: 159px;
+                height: 46px;
+                line-height: 46px;
+                color:#fff;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+            }
+            .blue{
+                background-image: -webkit-linear-gradient(top,#3a8a95,#2f6b75);
+            }
+            .green{
+                background-image: -webkit-linear-gradient(top,#5d882f ,#4a6b26);                    )   
+            }
+            .yellow{
+                background-image: -webkit-linear-gradient(top ,#d5a716 ,#ab8500);                              )   
+            }
+            .orange{
+                background-image: -webkit-linear-gradient(top ,#cb6614 ,#a55412);                              )   
+            }
+            .purple{
+                background-image: -webkit-linear-gradient(top ,#9d3d3e ,#7d3131);                              )   
+            }
+            .common2{
+                width: 159px;
+                height: 70px;
+                color: #2e3136;
+                background-color: #f0f0f0;
+            }
+            .common2 span{
+                font-size: 2em;
+                margin-right: 5px;   
+            }
+            .a{
+                width: 100%;
+                height: 100%;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .pl th,.mytable td{
+                border-right: 1px solid white;
+
+            }
+            .pl tbody td{
+                border-bottom: 1px solid #ccc;
+            }
+            .pl tfoot td{
+                border-bottom: 2px solid #323232;
+            }
+            .pl tbody tr td:first-child{
+                padding-left: 10px;
+            }
+            .pl thead tr:nth-child(2) th{
+                height: 71px;
+                background:#f0f0f0;
+            }
+            .common3{
+                width: 159px;
+                height: 36px;
+            }
+            .white{
+                background: #fff;
+            }
+            .gray{
+                background: #ececec;
+            }
+            .tal{
+                text-align: left;
+            }
+            .pl tfoot button{
+                width: 100px;
+                height: 29px;
+                border-radius: 0px;
+                border: none;
+                border: 1px solid #093b42;
+                text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+                color: #fff;
+            }
+            
+        </style>
+    </head>
+    <body>
+       <table class="pl">
+           <thead>
+               <tr>
+                    <th>
+                        <div class="common ">
+                        
+                        </div>
+                    </th>
+                   <th>
+                       <div class="common blue">
+                        Starter
+                       </div>
+                   </th>
+                   <th>
+                       <div class="common green">
+                        Basic
+                       </div>
+                   </th>
+                   <th>
+                       <div class="common yellow">
+                        Professional
+                       </div>
+                   </th>
+                   <th>
+                       <div class="common orange">
+                        Business
+                       </div>
+                   </th>
+                   <th>
+                    <div class="common  purple">
+                        Premier
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th style="background-color: #f0f0f0 ; width: 159px !important;">
+                    <div class="a" style="line-height:71px">
+                        Choose a Plan
+                    </div>
+                 </th> 
+               <th>
+                   <div class="common2 ">
+                    <span>$9</span>/mo.
+                   </div>
+               </th>
+               <th>
+                   <div class="common2 ">
+                    <span>$9</span>/mo.
+                   </div>
+               </th>
+               <th>
+                   <div class="common2 ">
+                    <span>$9</span>/mo.
+                   </div>
+               </th>
+               <th>
+                   <div class="common2  ">
+                    <span>$9</span>/mo.
+                   </div>
+               </th>
+                <th>
+                    <div class="common2  ">
+                        <span>$9</span>/mo. 
+                    </div>
+                </th>
+            </tr>
+           </thead>
+           <tbody>
+                <tr>
+                    <td class="common3 tal white">
+                        Disk Storage  <img src="./img/info.png">
+                    </td>
+                    <td class="common3  white">
+                    10GB
+                    </td>
+                    <td class="common3  white">
+                        50GB
+                    </td>
+                    <td class="common3  white">
+                        100GB
+                    </td>
+                    <td class="common3  white">
+                    500GB
+                    </td>
+                    <td class="common3  white">
+                        Unlimated
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 gray tal">
+                        Monthly Bandwidth <img src="./img/info.png">
+                    </td>
+                    <td class="common2 gray">
+                        10GB
+                    </td>
+                    <td class="common2 gray">
+                        50GB
+                    </td>
+                    <td class="common2 gray">
+                        100GB
+                    </td>
+                    <td class="common2 gray">
+                        500GB
+                    </td>
+                    <td class="common2 gray">
+                        Unlimited
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 white tal">
+                        Domain Names
+                    </td>
+                    <td class="common2 white">
+                        1
+                    </td>
+                    <td class="common2 white">
+                        10
+                    </td>
+                    <td class="common2 white">
+                        Unlimited
+                    </td>
+                    <td class="common2 white">
+                        Unlimited
+                    </td>
+                    <td class="common2 white">
+                        Unlimited
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 gray tal">
+                        Subdomains
+                    </td>
+                    <td class="common2 gray">
+                        10
+                    </td>
+                    <td class="common2 gray">
+                        50
+                    </td>
+                    <td class="common2 gray">
+                        Unlimited
+                    </td>
+                    <td class="common2 gray">
+                        Unlimited
+                    </td>
+                    <td class="common2 gray">
+                        Unlimited
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 white tal">
+                        Site Builders	
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/wrong.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 gray tal">
+                        Backups	
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/wrong.png" >
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/right.png" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 white tal">
+                        CPANEL <img src="./img/info.png">
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 gray tal">
+                        Email Accounts
+                    </td>
+                    <td class="common2 gray">
+                        10
+                    </td>
+                    <td class="common2 gray">
+                        50
+                    </td>
+                    <td class="common2 gray">
+                        Unlimited
+                    </td>
+                    <td class="common2 gray">
+                        Unlimited
+                    </td>
+                    <td class="common2 gray">
+                        Unlimited
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 white tal">
+                        MySQL Databases
+                    </td>
+                    <td class="common2 white">
+                        1 x 1GB
+                    </td>
+                    <td class="common2 white">
+                        5*2GB
+                    </td>
+                    <td class="common2 white">
+                        10 x 2GB
+                    </td>
+                    <td class="common2 white">
+                        50 x 2GB
+                    </td>
+                    <td class="common2 white">
+                        Unlimited
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 gray tal">
+                        Setup Fee <img src="./img/info.png">
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/wrong.png" >
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/wrong.png" >
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/wrong.png" >
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/wrong.png" >
+                    </td>
+                    <td class="common2 gray">
+                        Unlimited
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 white tal">
+                        24/7 Support	
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 gray tal">
+                        30-Days Money Back 	
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 gray">
+                        <img src="./img/right.png" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="common2 white tal">
+                        Templates 	
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/wrong.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                    <td class="common2 white">
+                        <img src="./img/right.png" >
+                    </td>
+                </tr>
+
+
+
+           </tbody>
+           <tfoot>
+               <tr>
+                <td class="common3 h60 gray"></td>
+                <td class="common3 h60 gray">
+                    <button class="blue">Sign Up</button>
+                </td>
+                <td class="common3 h60 gray">
+                    <button class="green">Sign Up</button>
+                </td>
+                <td class="common3 h60 gray">
+                    <button class="yellow">Sign Up</button>
+                </td>
+                <td class="common3 h60 gray">
+                    <button class="orange">Sign Up</button>
+                </td>
+                <td class="common3 h60 gray">
+                    <button class="purple">Sign Up</button>
+                </td>
+               </tr>
+           </tfoot>
+       </table>
+        
+    </body>
+</html>
